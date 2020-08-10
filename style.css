@@ -1,0 +1,46 @@
+.leftside, .rightside, .midel{
+    height: 50vh;
+    width: 100%;
+}
+
+
+@media screen and (min-width: 760px)
+{
+
+    .leftside, .rightside, .midel{
+        height: 100vh;
+    }
+}
+
+
+
+
+.leftside{
+    background: url(/image/l2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rightside{
+    background: url(/image/r1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.midel{
+    background: url(/image/e.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   
+   
+}
+
+ .heading{
+    color: black;
+    font-size: 90px;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    border: 3px solid ;
+}
